@@ -93,7 +93,7 @@ This WebApp has Potential to Become as Best User Engaged Platforms similar to
 	
 		<li> Details during registration is used as primary data to recommend </li>
 		<li> Categories used by the user while searching for the food will be used </li>
-		Example: If a user searched for
+		<p>Example: If a user searched for</p>
 		<ol type="i">
 			<li> Masala dosa – Details like South Indian food, Breakfast type, approximate time of making, chef details, price range etc will be noted and it will help to customize recommendations </li>
 			<li> Chef name and Breakfast type – then the recommendations will have breakfasts prepared by that chef, Breakfasts in general</li>
