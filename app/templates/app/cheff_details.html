@@ -1,0 +1,106 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block banner_slider %} 
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+p {text-align: center;}
+h2{text-align: center;}
+</style>
+
+<!--Banner Slider-->
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      {% if product2 %}
+      <img src="{{product2.1.product_image.url}}" class="center" width="1920" height="421"" alt="..."> 
+      {% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if product2 %}
+      <img src="{{product2.2.product_image.url}}" class="center" width="1920" height="421"" alt="..."> 
+      {% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if product2 %}]
+      <img src="{{product2.3.product_image.url}}" class="center" width="1920" height="421"" alt="..."> 
+      {% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if product2 %}]
+      <img src="{{product2.4.product_image.url}}" class="center" width="1920" height="421"" alt="..."> 
+      {% endif %}
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="True"
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="True"
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+{% endblock banner_slider %}
+{% block title %}Product Detail{% endblock title %}
+{% block main-content %}
+<div class="container my-5 mx-12" >
+  <div class="row">
+   <div class="col-sm-10 offset-sm-1">
+    {% if product1 %}
+    <h2>{{product1.title}}</h2>
+    <hr>
+    <p>{{product1.description}}</p> <br>
+    <h7><b>Category: </b> {{product1.category}}  </h7> <br>
+    <h7><b>Type: </b> {{product1.type_food}}  </h7> <br>
+    <h7><b>Region: </b> {{product1.region}}  </h7> <br>
+   </div>
+  </div>
+  
+ </div>
+
+<!-- 2nd Product Slider -->
+<div class="mx-3">
+    <h2> {{product1.title}} cooked by Different Chefs </h2>
+    <!-- Slider 1 -->
+    <div class="owl-carousel" id="slider10">
+      {% for p in product2 %}
+     <a href="{% url 'product-detail' p.id %}" class="btn"><div class="item"><img src="{{p.product_image.url}}" alt="" height="200px">
+      <h4>Cost : Rs. {{p.discounted_price}} <small class="fw-light text-decoration-line-through">{{p.selling_price}}</small></h4>
+      <h4>Rating : {{p.ratings}}</h4>
+      <h4>Time : {{p.get_time}} Mins </h4>
+      <h5>Chef Name : {{p.chef_name}}</h5>
+      <span class="fw-bold"></span><br><span class="fs-5"></span><br><span class="fs-5"></span><br><span class="fs-5">{{p.region}}</span></div></a>
+     {% endfor %}
+     {% endif %}
+    </div>
+   </div>
+   <br><br><br><br><br><br><br><br><br><br><br><br>
+  <!-- End 2nd Product Slider -->
+
+
+<!-- add recommendation engine here -->
+
+<!-- 
+  <div class="col-sm-8">
+    <div class="row">
+     {% for product in product2 %}
+      <div class="col-sm-4 text-center mb-4 mx-12 my-10 ">
+       <a href="{% url 'product-detail' product.id %}" class="btn">
+        <div class="item">
+         <img src="{{product.product_image.url}}" alt="" height="300" width="300" class="">
+         <div class="fw-bold">{{product.gettitle}}</div>
+         <div class="fw-bold">Rs. {{product.discounted_price}} <small class="fw-light text-decoration-line-through">{{product.selling_price}}</small></div>
+        </div>
+       </a>
+      </div>
+     {% endfor %}
+    </div>
+   </div>
+{% endblock main-content %}
+ -->

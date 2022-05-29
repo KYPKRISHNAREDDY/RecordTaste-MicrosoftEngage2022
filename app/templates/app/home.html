@@ -1,0 +1,200 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+
+{% block banner_slider %}
+<!--Banner Slider-->
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'app/images/banner/b1.jpeg' %}" class="d-block w-100" alt="..."> 
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'app/images/banner/b2.jpeg' %}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'app/images/banner/b3.jpeg' %}" class="d-block w-100" alt="...">
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="{% static 'app/images/banner/b4.jpg' %}" class="d-block w-100" alt="...">
+    </div> -->
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+<!-- End Banner Slider -->
+{% endblock banner_slider %}
+
+{% block livesale %}
+<!-- Live Sale Section -->
+<div class="container">
+  <div class="row bg-danger text-center p-5 text-white border-bottom shadow">
+    <h1>SALE IS LIVE NOW</h1>
+    <span>5% Instant Discount on Axis Bank Credit and Debit Card</span>
+    <small class="fw-lighter">Term and Condition Applied (For details visit Bank's official Website)</small>
+  </div>
+</div> 
+<!-- End Live Sale Section -->
+{% endblock livesale %}
+
+
+{% block main-content %}
+
+
+
+{% if request.user.is_authenticated %}
+<!-- 1st Product Slider -->
+<div class="mx-3">
+  {% if Recommendation_categ %}
+  <h2>{{Recommendation_categ.1.category}}</h2>
+  {% endif %}
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider1">
+    {% for v in Recommendation_categ %}
+   <a href="{% url 'cheff-detail' v.id %}" class="btn"><div class="item"><img src="{{v.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{v.title}}</span><br><span class="fs-5">Type : {{v.type_food}}</span><br><span class="fs-5">{{v.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+ <!-- End 1st Product Slider -->
+{% else %}
+<!-- 1st Product Slider -->
+<div class="mx-3">
+ <h2> Vegetarian </h2>
+ <!-- Slider 1 -->
+ <div class="owl-carousel" id="slider1">
+   {% for v in Vegetarian %}
+  <a href="{% url 'cheff-detail' v.id %}" class="btn"><div class="item"><img src="{{v.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{v.title}}</span><br><span class="fs-5">Type : {{v.type_food}}</span><br><span class="fs-5">{{v.region}}</span></div></a>
+  {% endfor %}
+ </div>
+</div>
+<!-- End 1st Product Slider -->
+
+
+
+<!-- 2nd Product Slider -->
+<div class="mx-3">
+  <h2> NonVegetarian </h2>
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider2">
+    {% for nv in NonVegetarian %}
+   <a href="{% url 'cheff-detail' nv.id %}" class="btn"><div class="item"><img src="{{nv.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{nv.title}}</span><br><span class="fs-5">Type : {{nv.type_food}}</span><br><span class="fs-5">{{nv.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+<!-- End 2nd Product Slider -->
+{% endif %}
+
+
+
+ {% if request.user.is_authenticated %}
+ <!-- 4th Product Slider -->
+<div class="mx-3">
+  {% if Recommendation_prefer %}
+  <h2>{{Recommendation_prefer.1.region}} </h2>
+  {% endif %}
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider4">
+    {% for i in Recommendation_prefer%}
+   <a href="{% url 'cheff-detail' i.id  %}" class="btn"><div class="item"><img src="{{i.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{i.title}}</span><br><span class="fs-5">Type : {{i.type_food}}</span><br><span class="fs-5">{{i.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+<!-- End 4th Product Slider -->
+{% else %}
+<!-- 4th Product Slider -->
+<div class="mx-3">
+  <h2> Indian </h2>
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider4">
+    {% for i in Indian%}
+   <a href="{% url 'cheff-detail' i.id  %}" class="btn"><div class="item"><img src="{{i.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{i.title}}</span><br><span class="fs-5">Type : {{i.type_food}}</span><br><span class="fs-5">{{i.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+<!-- End 4th Product Slider -->
+
+<!-- 5th Product Slider -->
+<div class="mx-3">
+  <h2> Chinese </h2>
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider5">
+    {% for v in Chinese %}
+   <a href="{% url 'cheff-detail' v.id  %}" class="btn"><div class="item"><img src="{{v.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{v.title}}</span><br><span class="fs-5">Type : {{v.type_food}}</span><br><span class="fs-5">{{v.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+<!-- End 5th Product Slider -->
+
+
+<!-- 9th Product Slider -->
+<div class="mx-3">
+  <h2> Italian </h2>
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider9">
+    {% for i in Italian %}
+   <a href="{% url 'cheff-detail' i.id  %}" class="btn"><div class="item"><img src="{{i.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{i.title}}</span><br><span class="fs-5">Type : {{i.type_food}}</span><br><span class="fs-5">{{i.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+<!-- End 9th Product Slider -->
+{% endif %}
+
+<!-- 3rd Product Slider -->
+<div class="mx-3">
+  <h2> Refreshments </h2>
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider3">
+    {% for nv in Refreshers %}
+   <a href="{% url 'cheff-detail' nv.id %}" class="btn"><div class="item"><img src="{{nv.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{nv.title}}</span><br><span class="fs-5">Type : {{nv.type_food}}</span><br><span class="fs-5">{{nv.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+<!-- End 2nd Product Slider -->
+
+<!-- 5th Product Slider -->
+<div class="mx-3">
+  <h2> BreakFast </h2>
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider6">
+    {% for v in BreakFast %}
+   <a href="{% url 'cheff-detail' v.id  %}" class="btn"><div class="item"><img src="{{v.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{v.title}}</span><br><span class="fs-5">Type : {{v.type_food}}</span><br><span class="fs-5">{{v.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+<!-- End 5th Product Slider -->
+
+<!-- 7th Product Slider -->
+<div class="mx-3">
+  <h2> Lunch </h2>
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider7">
+    {% for v in Lunch %}
+   <a href="{% url 'cheff-detail' v.id  %}" class="btn"><div class="item"><img src="{{v.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{v.title}}</span><br><span class="fs-5">Type : {{v.type_food}}</span><br><span class="fs-5">{{v.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+<!-- End 7th Product Slider -->
+
+<!-- 8th Product Slider -->
+<div class="mx-3">
+  <h2> Dinner </h2>
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider8">
+    {% for v in dinner %}
+   <a href="{% url 'cheff-detail' v.id  %}" class="btn"><div class="item"><img src="{{v.product_image.url}}" alt="" height="200px"><span class="fw-bold">{{v.title}}</span><br><span class="fs-5">Type : {{v.type_food}}</span><br><span class="fs-5">{{v.region}}</span></div></a>
+   {% endfor %}
+  </div>
+ </div>
+<!-- End 8th Product Slider -->
+
+
+
+
+{% endblock main-content %}
+

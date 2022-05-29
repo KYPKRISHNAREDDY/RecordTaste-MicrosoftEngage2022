@@ -1,0 +1,181 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Product Detail{% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+ <div class="row">
+  <div class="col-sm-6 text-center align-self-center">
+    {% if product %}
+   <img src="{{product.product_image.url}}" alt="" class="img-fluid img-thumbnail">
+  </div>
+  <div class="col-sm-5 offset-sm-1">
+      
+   <h2>RecordedTaste of {{product.pdtname}} </h2>
+   <hr>
+   <p> {{product.description}}</p> <br>
+   <h4> Cost      :  Rs. {{product.discounted_price}} <small class="fw-light text-decoration-line-through">{{product.selling_price}}</small></h4> <br>
+<h7><b><pre> Category   :  </b> {{product.category}}  </pre> </h7> 
+<h7><b><pre> Type       :  </b> {{product.type_food}}  </pre> </h7> 
+   <h7><b><pre> Rating     :  </b>{{product.ratings}} </pre>  </h7> 
+   <h7><b><pre> Time Takes :</b>  {{product.get_time}} Mins </pre></h7>
+   <h7><b><pre> Chef Name  :</b>  {{product.chef_name}} </pre></h7><br>
+   
+   <form action='/add-to-cart' class="d-inline">
+      <input type="hidden" name="prod_id" value={{product.id}} id="prod_id">
+      <button type="submit" class="btn btn-primary shadow px-5 py-2">Add to Cart</button>
+   </form>
+   
+   {% comment %} <a href="{% url 'buy-now' %}" class="btn btn-danger shadow px-5 py-2 ms-4">Buy Now</a> {% endcomment %}
+   <h5 class="mt-5">Available Offers</h5>
+   <ul>
+    <li>Bank Offer 5% Unlimited Cashback on RecordTaste Axis Bank Credit</li>
+    <li>Special Price Get extra ₹3000 off (price inclusive of discount)</li>
+    <li>No cost EMI ₹1,667/month. Standard EMI also available</li>
+    <li>Partner Offer ₹2000 Flipkart Gift Card on Every 1000th Transaction with a new Visa Debit/Credit Card</li>
+   </ul>
+   {% endif %}
+
+  </div>
+ </div>
+</div>
+
+
+{% if request.user.is_authenticated %}
+ <br>
+ <hr><hr>
+ <h1 align=center><b>-------------------- Customised Recommendations!!! --------------------<b> </h1> 
+ <hr><hr>
+
+
+ <br> 
+ 
+ <div class="mx-3">
+
+   <h2>Dishes cooked by {{cheff_recommendation.1.chef_name}} </h2>
+   <hr>
+   <!-- Slider 1 -->
+   <div class="owl-carousel" id="slider11">
+     {% for p in cheff_recommendation%}
+     
+    <a href="{% url 'product-detail' p.id %}" class="btn"><div class="item"><img src="{{p.product_image.url}}" alt="" height="200px">
+     <h4>Cost : Rs. {{p.discounted_price}} <small class="fw-light text-decoration-line-through">{{p.selling_price}}</small></h4>
+     <h4>Rating : {{p.ratings}}</h4>
+     <h4>Time : {{p.get_time}} Mins </h4>
+     <h5>Chef Name : {{p.chef_name}}</h5>
+     <span class="fw-bold"></span><br><span class="fs-5"></span><br><span class="fs-5"></span><br><span class="fs-5">{{p.region}}</span></div></a>
+    {% endfor %}
+    
+   </div>
+  </div><br>
+
+  <div class="mx-3">
+   <h2>Dishes based on Price </h2>
+   <hr>
+   <!-- Slider 1 -->
+   <div class="owl-carousel" id="slider11">
+     {% for p in Price_recommendation%}
+     
+    <a href="{% url 'product-detail' p.id %}" class="btn"><div class="item"><img src="{{p.product_image.url}}" alt="" height="200px">
+     <h4>Cost : Rs. {{p.discounted_price}} <small class="fw-light text-decoration-line-through">{{p.selling_price}}</small></h4>
+     <h4>Rating : {{p.ratings}}</h4>
+     <h4>Time : {{p.get_time}} Mins </h4>
+     <h5>Chef Name : {{p.chef_name}}</h5>
+     <span class="fw-bold"></span><br><span class="fs-5"></span><br><span class="fs-5"></span><br><span class="fs-5">{{p.region}}</span></div></a>
+    {% endfor %}
+    
+   </div>
+  </div><br>
+
+
+  <div class="mx-3">
+   <h2>Dishes based on rating ({{Rating_recommendation.1.ratings}} ) </h2>
+   <hr>
+   <!-- Slider 1 -->
+   <div class="owl-carousel" id="slider11">
+     {% for p in Rating_recommendation%}
+     
+    <a href="{% url 'product-detail' p.id %}" class="btn"><div class="item"><img src="{{p.product_image.url}}" alt="" height="200px">
+     <h4>Cost : Rs. {{p.discounted_price}} <small class="fw-light text-decoration-line-through">{{p.selling_price}}</small></h4>
+     <h4>Rating : {{p.ratings}}</h4>
+     <h4>Time : {{p.get_time}} Mins </h4>
+     <h5>Chef Name : {{p.chef_name}}</h5>
+     <span class="fw-bold"></span><br><span class="fs-5"></span><br><span class="fs-5"></span><br><span class="fs-5">{{p.region}}</span></div></a>
+    {% endfor %}
+    
+   </div>
+  </div><br>
+
+  <div class="mx-3">
+
+   <h2>Dishes based on Duration Of Cooking </h2>
+   <hr>
+   <!-- Slider 1 -->
+   <div class="owl-carousel" id="slider11">
+     {% for p in cheff_recommendation%}
+     
+    <a href="{% url 'product-detail' p.id %}" class="btn"><div class="item"><img src="{{p.product_image.url}}" alt="" height="200px">
+     <h4>Cost : Rs. {{p.discounted_price}} <small class="fw-light text-decoration-line-through">{{p.selling_price}}</small></h4>
+     <h4>Rating : {{p.ratings}}</h4>
+     <h4>Time : {{p.get_time}} Mins </h4>
+     <h5>Chef Name : {{p.chef_name}}</h5>
+     <span class="fw-bold"></span><br><span class="fs-5"></span><br><span class="fs-5"></span><br><span class="fs-5">{{p.region}}</span></div></a>
+    {% endfor %}
+    
+   </div>
+  </div><br>
+
+
+   <h2>Dishes based on Type ( {{Type_recommendation.1.type_food}} )</h2>
+   <hr>
+   <!-- Slider 1 -->
+   <div class="owl-carousel" id="slider11">
+     {% for p in Type_recommendation%}
+     
+    <a href="{% url 'product-detail' p.id %}" class="btn"><div class="item"><img src="{{p.product_image.url}}" alt="" height="200px">
+     <h4>Cost : Rs. {{p.discounted_price}} <small class="fw-light text-decoration-line-through">{{p.selling_price}}</small></h4>
+     <h4>Rating : {{p.ratings}}</h4>
+     <h4>Time : {{p.get_time}} Mins </h4>
+     <h5>Chef Name : {{p.chef_name}}</h5>
+     <span class="fw-bold"></span><br><span class="fs-5"></span><br><span class="fs-5"></span><br><span class="fs-5">{{p.region}}</span></div></a>
+    {% endfor %}
+    
+   </div>
+  </div><br>
+
+  <div class="mx-3">
+
+   <h2>Dishes based on Category( {{Category_recommendation.1.category}} )</h2>
+   <hr>
+   <!-- Slider 1 -->
+   <div class="owl-carousel" id="slider11">
+     {% for p in Category_recommendation%}
+     
+    <a href="{% url 'product-detail' p.id %}" class="btn"><div class="item"><img src="{{p.product_image.url}}" alt="" height="200px">
+     <h4>Cost : Rs. {{p.discounted_price}} <small class="fw-light text-decoration-line-through">{{p.selling_price}}</small></h4>
+     <h4>Rating : {{p.ratings}}</h4>
+     <h4>Time : {{p.get_time}} Mins </h4>
+     <h5>Chef Name : {{p.chef_name}}</h5>
+     <span class="fw-bold"></span><br><span class="fs-5"></span><br><span class="fs-5"></span><br><span class="fs-5">{{p.region}}</span></div></a>
+    {% endfor %}
+    
+   </div>
+  </div><br>
+
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+  {% else %}
+  
+  <br>
+ <hr><hr>
+ <h1 align=center><b>----Login to See Customised Recommendations!!! ---- <b> </h1> 
+ <hr><hr>
+
+
+ <br> 
+ {% endif %}
+
+
+{% endblock main-content %}

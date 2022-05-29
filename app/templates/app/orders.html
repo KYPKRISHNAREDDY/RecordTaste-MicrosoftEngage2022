@@ -1,0 +1,48 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Orders{% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+ <div class="row">
+ <h3>Welcome <span class="text-capitalize">{{request.user}}</span></h3>
+ <br>
+  <div class="col-sm-9 offset-sm-1">
+   <div class="row">
+    {% for op in order_placed %}
+     <div class="col-sm-12">
+      <div class="row shadow-sm mb-3">
+       <div class="col-sm-2"><img src="{{op.product.product_image.url}}" alt="" srcset="" class="img-fluid" height="150" width="150"></div>
+       <div class="col-sm-7">
+        <p>Product:<b> {{op.product_name.title}}</b></p>
+        <p>Price: <b> {{op.product.discounted_price}}</b></p>
+       </div>
+       <div class="col-sm-3 fw-bold">
+       </div>
+      </div>
+     </div>
+     {% endfor %}
+    </div>
+  </div>
+ </div>
+</div>
+
+
+<div class="mx-3">
+  <h2>Similar Dishes </h2>
+  <hr>
+  <!-- Slider 1 -->
+  <div class="owl-carousel" id="slider11">
+    {% for p in Price_recommendation%}
+    
+   <a href="{% url 'product-detail' p.id %}" class="btn"><div class="item"><img src="{{p.product_image.url}}" alt="" height="200px">
+    <h4>Cost : Rs. {{p.discounted_price}} <small class="fw-light text-decoration-line-through">{{p.selling_price}}</small></h4>
+    <h4>Rating : {{p.ratings}}</h4>
+    <h4>Time : {{p.get_time}} Mins </h4>
+    <h5>Chef Name : {{p.chef_name}}</h5>
+    <span class="fw-bold"></span><br><span class="fs-5"></span><br><span class="fs-5"></span><br><span class="fs-5">{{p.region}}</span></div></a>
+   {% endfor %}
+   
+  </div>
+ </div><br>
+
+{% endblock main-content %}
