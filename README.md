@@ -92,10 +92,7 @@ This WebApp has Potential to Become as Best User Engaged Platforms similar to
 	<ol type="a">
 	
 		<li> Details during registration is used as primary data to recommend </li>
-		<li> Categories used by the user while searching for the food will be used </li>
-		<ul>
-			<li>Example: If a user searched for</li>
-		</ul>
+		<li> Categories used by the user while searching for the food will be used <br>Example: If a user searched for<br> </li>
 		
 		<ol type="i">
 			<li> Masala dosa – Details like South Indian food, Breakfast type, approximate time of making, chef details, price range etc will be noted and it will help to customize recommendations </li>
@@ -104,19 +101,20 @@ This WebApp has Potential to Become as Best User Engaged Platforms similar to
 		<li> The more details user put in while searching the more precise recommendations will be Recommendations will be based on the Item added to the cart </li>
 		<li> customized recommendations will be provided only after the user is logged in</li>
 	</ol>
-  </ol>
+</ol>
 
 
-Potential of the app: 
-•	The web app has the potential to become the best user engaged platform, similar to Youtube, Flipkart, and Amazon.
-•	Just like Youtube, users can record their cooking and upload it on our website, which will be available to the whole world
-•	Users who upload videos will get money based on how many orders their video gets and the ratings.
-•	Silver chef, Gold chef etc will be given to uploaders to encourage more and more participation
-•	A feature of customizing food can also be done
-Ex: Only use olive oil 
+Potential of the app:
+<ul>
+	<li>The web app has the potential to become the best user engaged platform, similar to Youtube, Flipkart, and Amazon.</li>
+	<li>Just like Youtube, users can record their cooking and upload it on our website, which will be available to the whole world</li>
+	<li>Users who upload videos will get money based on how many orders their video gets and the ratings.</li>
+	<li>Silver chef, Gold chef etc will be given to uploaders to encourage more and more participation</li>
+	<li>A feature of customizing food can also be done</li>
+	Ex: Only use olive oil 
 
 
-All these are Hypothetical.
+	All these are Hypothetical.
 
 
 
