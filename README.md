@@ -104,7 +104,7 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 
 <br><br>
 	
-<b>Potential of the app:</b>
+<b>Potential of this Webapp:</b>
 <ul>
 	<li>The web app has the potential to become the best user engaged platform, similar to Youtube, Flipkart, and Amazon.</li>
 	<li>Just like Youtube, users can record their cooking and upload it on our website, which will be available to the whole world</li>
