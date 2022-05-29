@@ -66,10 +66,9 @@ This WebApp has Potential to Become as Best User Engaged Platforms similar to
 	</ol>
   <li> 	Login: </li>
 	<ol type="a">
-	
 		<li>User will login by their credentials </li>
 		<li>User can search for an item and see details about it even without logging</li>
-		<li>Customized recommendations will be provided only after logging in.</li>
+		<li>Customized recommendations will be provided only after logging in. </li>
 	</ol>
   <li> Search: </li>
 	<ol type="a">
