@@ -104,7 +104,7 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 
 <br><br>
 	
-<b>Potential of this Webapp:</b>
+<b>Potential of this Webapp if it is developed further :</b>
 <ul>
 	<li>The web app has the potential to become the best user engaged platform, similar to Youtube, Flipkart, and Amazon.</li>
 	<li>Just like Youtube, users can record their cooking and upload it on our website, which will be available to the whole world</li>
@@ -114,7 +114,7 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 	Ex: Only use olive oil 
 
 
-	All these are Hypothetical.
+
 
 
 
