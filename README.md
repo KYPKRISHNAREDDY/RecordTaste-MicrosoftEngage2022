@@ -96,7 +96,6 @@ This WebApp has Potential to Become as Best User Engaged Platforms similar to
 			<li>	Masala dosa – Details like South Indian food, Breakfast type, approximate time of making, chef details, price range etc will be noted and it will help to customize recommendations</li>
 			<li> Chef name and Breakfast type – then the recommendations will have breakfasts prepared by that chef, Breakfasts in general </li>
 		</ol>
-	</ol>
 	
 		<li> The more details user put in while searching the more precise recommendations will be Recommendations will be based on the Item added to the cart </li>
 		<li> customized recommendations will be provided only after the user is logged in </li>
