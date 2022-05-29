@@ -34,7 +34,8 @@ This web app has been developed by Krishna Reddy for the Microsoft engage progra
 
 ## Idea
 The idea behind the project: As we are in the era of automation, everything is getting automated, from Face recognition to self-driving cars
-Imagine how cool it would be “If cooking also gets automated,” Even though there is no product as such in the current market. Research is going on in this field, and a high chance of being available shortly. 
+Imagine how cool it would be “If cooking also gets automated,” Even though there is no product as such in the current market.
+Research is going on in this field, and a high chance of being available shortly. 
 Few examples: Molly from Moley robotics, Samsung bot chef
 Let's assume that a machine (which is hypothetical) will have options: fill ingredients, record, cook,
 Fill ingredients: There will be containers for each ingredient required for the dish, which has to be filled manually
@@ -58,7 +59,7 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 
 ## Features of this WebApp
 
-This WebApp has Potential to Become as Best User Engaged Platforms similar to 
+
 <ol type="1">
 	<li><b>Register: </b></li>
 	<ol type="a">
