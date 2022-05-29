@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="![Logo](https://user-images.githubusercontent.com/65936280/170873022-55e92cd3-1733-4f2e-9e8e-946e572d195e.PNG)" alt="RecordTaste" width="200"></a>
+  <img src="https://user-images.githubusercontent.com/65936280/170873022-55e92cd3-1733-4f2e-9e8e-946e572d195e.PNG" alt="RecordTaste" width="200"></a>
   <br>
 
 
@@ -120,9 +120,7 @@ I made Manual DataSet for My DataBases which is the Key Thing in this Project.
 
 
 **Sprint 4** : This was the last sprint I had in the development phase. I was close to the delivery date so I basically took feedbacks from Friends and other people around me on the UI of my product and then improved the UI of my app to a great extent. This added beauty to my product and made it delivery ready as well.
-<p align="center">
-<img src="https://www.dropbox.com/s/032y7mxxdbaifj7/Screenshot%20%2824%29.png?dl=0&raw=1">
-</p><br>
+
 
 ## Website demo video
 [See demo](Link Here ) - This video has already been submitted with the "Submit your solution form".
