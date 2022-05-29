@@ -1,7 +1,8 @@
 <h1 align="center">
   <br>
-  <img src="	![Logo](https://user-images.githubusercontent.com/65936280/170871472-f95505df-e9bf-459a-ae18-f63a418565ac.PNG)" alt="MS Teams Logo" width="200"></a>
+  <img src="![Logo](https://user-images.githubusercontent.com/65936280/170873022-55e92cd3-1733-4f2e-9e8e-946e572d195e.PNG)" alt="RecordTaste" width="200"></a>
   <br>
+
 
 
 <br>
