@@ -60,17 +60,17 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 
 This WebApp has Potential to Become as Best User Engaged Platforms similar to 
 <ol type="1">
-  <li>Register: </li>
+	<li><b>Register: </b></li>
 	<ol type="a">
 		<li>The user has to register themselves by providing basic details like name, locality, they prefer veg or non-veg etc</li>
 	</ol>
-  <li> 	Login: </li>
+  <li> <b>	Login:</b> </li>
 	<ol type="a">
 		<li>User will login by their credentials </li>
 		<li>User can search for an item and see details about it even without logging</li>
 		<li>Customized recommendations will be provided only after logging in. </li>
 	</ol>
-  <li> Search: </li>
+  <li><b> Search:</b> </li>
 	<ol type="a">
 		<li>User can search food </li>
 		<li>Different categories will be provided and user will select Categories on:</li>
@@ -84,11 +84,11 @@ This WebApp has Potential to Become as Best User Engaged Platforms similar to
 			<li>	Item type: Breakfast, dinner, refreshment etc</li>
 		</ol>
 	</ol>
-  <li> Add to cart: </li>
+  <li> <b>Add to cart:</b> </li>
 	 <ol type="a">
 		 <li>Selected food item can be added to cart where details of the order will be visible</li>
 	</ol>
-  <li>	Recommendations:</li>
+  <li><b>Recommendations:</b></li>
 	<ol type="a">
 		<li>Details during registration is used as primary data to recommend </li>
 		<li>Categories used by the user while searching for the food will be used</li>
@@ -101,8 +101,9 @@ This WebApp has Potential to Become as Best User Engaged Platforms similar to
 	</ol>
   
 
-
-Potential of the app:
+<br><br>
+	
+<b>Potential of the app:</b>
 <ul>
 	<li>The web app has the potential to become the best user engaged platform, similar to Youtube, Flipkart, and Amazon.</li>
 	<li>Just like Youtube, users can record their cooking and upload it on our website, which will be available to the whole world</li>
@@ -116,7 +117,7 @@ Potential of the app:
 
 
 
-
+<br><br>
 This Web App
 <ul>  <b> Bulit with</b>
 <ul>
