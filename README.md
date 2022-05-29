@@ -28,60 +28,79 @@
 ## About
 -Theme of Project
 
+RecordTaste is a web app inspired by automation. It is a full-fledged recommendation E-commerce website containing features like choosing the product, Add to cart, with recommendations based on profile, dish selected, dish ordered, and order history.
+This web app has been developed by Krishna Reddy for the Microsoft engage program 2022 (May 4 - May 29)
 
-RecordTaste is a web app inspired by Automation which is full fledged recommendation ECommerce website with Add to Cart along with features of feed containing recommendations based on Dish you clicked on,with Profile based recommendations,with Order History based Recommendations .This webapp has been developed by Krishna Reddy under the Microsoft engage program 2022 (May 4 - May 29)
 
 ## Idea
-Idea Behind The Project:
-As  We are in the era of Automation , we can see everything is getting automated from Face Recognition to  Self Driving Cars..
+The idea behind the project: As we are in the era of automation, everything is getting automated, from Face recognition to self-driving cars
+Imagine how cool it would be “If cooking also gets automated,” Even though there is no product as such in the current market. Research is going on in this field, and a high chance of being available shortly. 
+Few examples: Molly from Moley robotics, Samsung bot chef
+Let's assume that a machine (which is hypothetical) will have options: fill ingredients, record, cook,
+Fill ingredients: There will be containers for each ingredient required for the dish, which has to be filled manually
 
-Imagine How cool it would be “If cooking also Gets Automated”
-Even though this is not possbile as of Now , There are high Chances to be available in  future.
+Record: 
+1.	Press the record option and prepare the dish.
+2.	The machine will observe minute details when you are cooking.
+ For example, how many grams of salt is added, the time gap between adding salt and vegetables, the centigrade flame maintained, and many more.
 
-Lets say There is “ A Machine(which is hypothetical as of Now) , it will have Options:RecordDish , CookDish and Some Storage Containers to dump the  ingredients to cook.
-
-Suppose we  Started cooking Biryani.
-we will press the RecordDish Option on the Machine and start Our Cooking.
-
-Machine will observe every minute things when we are Cooking like
- “How many grams of salt,Pepper etc.. is added” , 
-” Whats the time Gap between adding salt and Vegetable Pieces”,
-“How much Pressure is applied while stirring the spoon”
-” How much Centigrade Flame is maintained”
-“How many grams of Vegetables are added” etc........
-
-it will record the Cooking Process of That Particular Dish and 
-now it will be having the Program on How to Cook that dish
-
-From Next Time,We dont need to cook the Dish,
-we just have to Load that Dish Program to the  Machine and press the CookDish Option and 
-dump the required ingredients into containers of that machine 
-
-it will Cook For Us by seeing the RecordedCode.
-Meanwhile we can do whatever work we had and chill when the machine is cooking for us 
+Cook: By the inbuilt program of the machine, it starts preparing the dish by taking details from the recording
+Next time onwards, there is no need to cook. We just have to load ingredients, provide a recording of the dish, and press the cook option.
+It will cook on its own.
 
 
 ## Role Of This WebApp
 
--
-How amazing it would be " If a Person can share their FoodTaste with another Person who is at Another corner of The World."
-RecordTaste WebApp provides that Features
-This Provides the interface to get Programs(Recordings) for Cooking the Dishes.
-Many Users/Chefs will sell their Recordings on our website and User  will load that code into His machine and 
-Machine will cook that Dish with ChefTaste Meanwhile User can do whatever work he had.
+How amazing it would be "If a person can share their food taste with another person who is in another corner of the world." 
+RecordTaste web app will make this dream come true.
+It provides the interface to get programs(recordings) for cooking dishes. Many users/chefs will sell their recordings on our website, and the user will load that code into his machine and it will cook with the same taste as the one in the recorded dish. Meanwhile, we can do other chores and chill.
 
-With this,being in Foreign we can Eat homeMadeFood which is being cooked by our parents in India
 
 ## Features of this WebApp
 
-This WebApp has Potential to Become as Best User Engaged Platforms similar to Youtube,Flipkart,Amazon .
-Ex: Just like Youtube,Normal Users also can record their cooking and can upload the code on Website which will be available to the whole world  (this feature is not included in website as of Now)
+This WebApp has Potential to Become as Best User Engaged Platforms similar to 
+1)	Register: 
+	a)	The user has to register themselves by providing basic details like name, locality, they prefer veg or non-veg etc
+2)	Login:
+	a)	User will login by their credentials 
+	b)	User can search for an item and see details about it even without logging
+	c)	Customized recommendations will be provided only after logging in.
+3)	Search:
+	a)	User can search food 
+	b)	Different categories will be provided and user will select
+Categories on:
+		i)	Time needed for preparation
+		ii)	 Name of Chef 
+		iii)	Ratings of the chef
+		iv)	Veg or non veg
+		v)	 Locality: South Indian, North Indian, Chinese, Italian
+		vi)	Price for the recorded video
+		vii)	Item type: Breakfast, dinner, refreshment etc
+	
+4)	Add to cart: 
+Selected food item can be added to cart where details of the order will be visible
+5)	Recommendations:
+	a)	Details during registration is used as primary data to recommend
+	b)	Categories used by the user while searching for the food will be used 
+	Example: If a user searched for
+		i.	Masala dosa – Details like South Indian food, Breakfast type, approximate time of making, chef details, price range etc will be noted and it will help to customize recommendations
+		ii.	Chef name and Breakfast type – then the recommendations will have breakfasts prepared by that chef, Breakfasts in general
+	C) The more details user put in while searching the more precise recommendations will be 
+	d) Recommendations will be based on the Item added to the cart 
+	e) customized recommendations will be provided only after the user is logged in
 
-Our  website will recommend Dishes based on ** UserProfile **
 
-As user Browses the feed,Our WebApp will Recommend similar dishes based on items User visited 
-User can add some Dishes to Cart 
-User can Purchase Dishes and our WebApp will recommend similar Dishes based on Purchase History
+Potential of the app: 
+•	The web app has the potential to become the best user engaged platform, similar to Youtube, Flipkart, and Amazon.
+•	Just like Youtube, users can record their cooking and upload it on our website, which will be available to the whole world
+•	Users who upload videos will get money based on how many orders their video gets and the ratings.
+•	Silver chef, Gold chef etc will be given to uploaders to encourage more and more participation
+•	A feature of customizing food can also be done
+Ex: Only use olive oil 
+
+
+All these are Hypothetical.
+
 
 
 
@@ -114,28 +133,28 @@ ProjectThemeExplaination with Pics
 
 
 ## Agile
-I have adopted the **Scrum** methodology for the development of the product. I divided the 25Days of the program into four sprints , each consisting of Six Days.
-Before every sprint I used to set a target for that week/sprint and then work on that.
 
-**Sprint 1** : The first sprint started from 4th May ,I have dedicated SPRINT 1 Completely to Choose the Project out of 3Projects given by Microsoft Engage team.
-As there are multiple factors to Consider while choosing the Project as Beginner in TechStack Field.
-After Considerin Muliple factors,I decided to go with 3rd Project:Recommendation Algorithm WebApp
-I went through basics needed to build what I a intended to apply in my Project.I started planning about how to develop and design my website. I made a basic prototype of what features I was going to include and how. Later I added the mandatory feature to my website.
+I have adopted the **Scrum** methodology for developing the product. I have divided 25days into four sprints, each consisting of six days. Before every sprint, I used to set a target for the week/sprint and work on it.
 
-After Sprint 1 was over I took feedback from my friends,Seniors and family about what actually they would have wanted from an webapp. I noted them and then worked upon them accordingly.
-
-**Sprint 2 and 3** : Now that I had mandatory feature already built and also got my mentor assigned to me , in Sprint 2 and 3 , I worked upon adding additional features to my website. During this phase/sprint I used to continuously take inputs from my Seniors, friends and then modify my product as per the needs.
-I made Manual DataSet for My DataBases which is the Key Thing in this Project.
+**Sprint 1** : The first sprint started on the 4th of May. I dedicated SPRINT 1 entirely to choosing a project out of 3 given by the Microsoft Engage team. Finally, I decided on the 3rd project: The recommendation algorithm web app, after considering multiple factors while selecting a project as a beginner in the tech stack field.
+I went through the basics needed to build what I intended to apply to the project. I started planning about how to develop and design my website. I made a basic prototype of the features I was going to include and how. Later I added mandatory features to my website.
+After Sprint 1 was over, I took feedback from my friends, Seniors, and family about what they would be looking forward to in a web app. I noted  and worked upon them accordingly.
 
 
+**Sprint 2 and 3**: Now that I had mandatory features already built and got my mentor assigned, in sprints 2 and 3, I worked on adding additional features to my website. During this phase, I continued taking input from my seniors and friends, then modified my product as per their inputs. I made a manual dataset for my databases, which is a vital factor in this project.
 
-**Sprint 4** : This was the last sprint I had in the development phase. I was close to the delivery date so I basically took feedbacks from Friends and other people around me on the UI of my product and then improved the UI of my app to a great extent. This added beauty to my product and made it delivery ready as well.
+
+**Sprint 4** : This is the last sprint I had in my development phase. I was close to the delivery date, so I took feedback from friends and others on the UI of my product and then improved it to a great extent. This added beauty to my product and made it delivery ready as well.
 
 
 ## Website demo video
-[See demo](Link Here ) - This video has already been submitted with the "Submit your solution form".
+[See demo]([Link Here](https://youtu.be/toMaOVxh1-s) ) - This video has already been submitted with the "Submit your solution form."
+<br><br>
+## Special Thanks 🙇	
+Special thanks to my Microsoft engage mentor for guiding me throughout the program!
+To my friends, seniors, and family members for valuable input and Microsoft for this great opportunity
 
-<br> <br>
 
-## Special Thanks 🙇
-To My Friends,Seniors,Family, my MS engage mentor for guiding me throughout the program!
+
+
+
