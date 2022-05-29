@@ -59,35 +59,51 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 ## Features of this WebApp
 
 This WebApp has Potential to Become as Best User Engaged Platforms similar to 
-1)	Register: 
-	a)	The user has to register themselves by providing basic details like name, locality, they prefer veg or non-veg etc
-2)	Login:
-	a)	User will login by their credentials 
-	b)	User can search for an item and see details about it even without logging
-	c)	Customized recommendations will be provided only after logging in.
-3)	Search:
-	a)	User can search food 
-	b)	Different categories will be provided and user will select
-Categories on:
-		i)	Time needed for preparation
-		ii)	 Name of Chef 
-		iii)	Ratings of the chef
-		iv)	Veg or non veg
-		v)	 Locality: South Indian, North Indian, Chinese, Italian
-		vi)	Price for the recorded video
-		vii)	Item type: Breakfast, dinner, refreshment etc
+<ol type="1">
+  <li>Register: </li>
+	<ol type="a">
+		<li>The user has to register themselves by providing basic details like name, locality, they prefer veg or non-veg etc</li>
+	</ol>
+  <li> 	Login: </li>
+	<ol type="a">
 	
-4)	Add to cart: 
-Selected food item can be added to cart where details of the order will be visible
-5)	Recommendations:
-	a)	Details during registration is used as primary data to recommend
-	b)	Categories used by the user while searching for the food will be used 
-	Example: If a user searched for
-		i.	Masala dosa – Details like South Indian food, Breakfast type, approximate time of making, chef details, price range etc will be noted and it will help to customize recommendations
-		ii.	Chef name and Breakfast type – then the recommendations will have breakfasts prepared by that chef, Breakfasts in general
-	C) The more details user put in while searching the more precise recommendations will be 
-	d) Recommendations will be based on the Item added to the cart 
-	e) customized recommendations will be provided only after the user is logged in
+		<li>User will login by their credentials </li>
+		<li>User can search for an item and see details about it even without logging</li>
+		<li>Customized recommendations will be provided only after logging in.</li>
+	</ol>
+  <li> Search: </li>
+	<ol type="a">
+		<li>User can search food </li>
+		<li>Different categories will be provided and user will select Categories on:</li>
+		<ol type="i">
+			<li>	Time needed for preparation</li>
+			<li> Name of Chef </li>
+			<li>	Ratings of the chef</li>
+			<li>	Veg or non veg</li>
+			<li>	 Locality: South Indian, North Indian, Chinese, Italian</li>
+			<li>	Price for the recorded video</li>
+			<li>	Item type: Breakfast, dinner, refreshment etc</li>
+		</ol>
+	</ol>
+  <li> Add to cart: </li>
+	 <ol type="a">
+		 <li>Selected food item can be added to cart where details of the order will be visible</li>
+	</ol>
+  <li>	Recommendations:</li>
+	<ol type="a">
+	
+		<li>Details during registration is used as primary data to recommend</li>
+		<li>Categories used by the user while searching for the food will be used </li>
+		Example: If a user searched for
+		<ol type="i">
+			<li>Masala dosa – Details like South Indian food, Breakfast type, approximate time of making, chef details, price range etc will be noted and it will help to customize recommendations</li>
+			<li>Chef name and Breakfast type – then the recommendations will have breakfasts prepared by that chef, Breakfasts in general</li>
+		</ol>
+	<li> The more details user put in while searching the more precise recommendations will be 
+	 Recommendations will be based on the Item added to the cart </li>
+	<li> customized recommendations will be provided only after the user is logged in</li>
+	</ol>
+  </ol>
 
 
 Potential of the app: 
