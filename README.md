@@ -108,8 +108,8 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 <ul>
 	<li>The web app has the potential to become the best user engaged platform, similar to Youtube, Flipkart, and Amazon.</li>
 	<li>Just like Youtube, users can record their cooking and upload it on our website, which will be available to the whole world</li>
-	<li>Users who upload videos will get money based on how many orders their video gets and the ratings.</li>
-	<li>Silver chef, Gold chef etc will be given to uploaders to encourage more and more participation</li>
+	<li>Users who upload Dish Recordings will get money based on how many orders their video gets and the ratings.</li>
+	<li>Silver chef, Gold chef etc will be given to uploaders(content creators in our website) to encourage more and more participation</li>
 	<li>A feature of customizing food can also be done</li>
 	Ex: Only use olive oil 
 
