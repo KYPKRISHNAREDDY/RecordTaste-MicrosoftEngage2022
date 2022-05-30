@@ -101,6 +101,22 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 		<li>customized recommendations will be provided only after the user is logged in</li>
 	</ol>
   
+	
+	
+## WebApp-Features-Exploaration
+	
+	<b>1. Navigation Bar Updation according to Login Status</b>
+	Before Login            |  After Login
+:-------------------------:|:-------------------------:
+![Login,Regristration Options Visible](https://user-images.githubusercontent.com/65936280/170920760-439e52eb-223b-4e0a-83e3-5ceb405b65c7.PNG)  |  ![Login,Regristration Options Not Visible.Only Profile,Logout,orders Options ](https://user-images.githubusercontent.com/65936280/170920966-0ef71a35-b1ab-412f-81b2-f5ceeedee98f.PNG)
+	
+	
+	
+
+
+	
+	
+	
 
 <br><br>
 	
