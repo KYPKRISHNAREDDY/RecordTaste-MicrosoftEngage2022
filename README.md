@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://user-images.githubusercontent.com/65936280/170873022-55e92cd3-1733-4f2e-9e8e-946e572d195e.PNG" alt="RecordTaste" width="200"></a>
+  <img src="https://user-images.githubusercontent.com/65936280/170873022-55e92cd3-1733-4f2e-9e8e-946e572d195e.PNG" alt="RecordTaste" width="120"></a>
   <br>
 
 
@@ -89,7 +89,7 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 	 <ol type="a">
 		 <li>Selected food item can be added to cart where details of the order will be visible</li>
 	</ol>
-  <li><b>Recommendations:</b></li>
+  <li><b>Add to Cart :</b></li>
 	<ol type="a">
 		<li>Details during registration is used as primary data to recommend </li>
 		<li>Categories used by the user while searching for the food will be used</li>
@@ -100,22 +100,151 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 		<li>The more details user put in while searching the more precise recommendations will be Recommendations will be based on the Item added to the cart </li>
 		<li>customized recommendations will be provided only after the user is logged in</li>
 	</ol>
-  
 	
 	
-## WebApp-Features-Exploaration
 	
-	<b>1. Navigation Bar Updation according to Login Status</b>
-	Before Login            |  After Login
-:-------------------------:|:-------------------------:
-![Login,Regristration Options Visible](https://user-images.githubusercontent.com/65936280/170920760-439e52eb-223b-4e0a-83e3-5ceb405b65c7.PNG)  |  ![Login,Regristration Options Not Visible.Only Profile,Logout,orders Options ](https://user-images.githubusercontent.com/65936280/170920966-0ef71a35-b1ab-412f-81b2-f5ceeedee98f.PNG)
+	
+## WebApp-Features-ExploarationWithPics
+	
+	
+	
+	
+	
+<ol type="1">
+	<li><b>Navigation Bar Updation according to Login Status </b></li>
+		<div> <img src="https://user-images.githubusercontent.com/65936280/170947615-96d2ca8b-a623-45d0-9315-aa9204d23c96.jpg" height="420" width="580"></div>
+  <li> <b>Register,Login,Profile Filling Option</b> </li>
+	<div><img src="https://user-images.githubusercontent.com/65936280/170948340-16e4e929-b29d-4cd5-a870-96dcdb884cbd.jpg" height="420" width="580"></div>
+	
+  <li><b> HomePage Recommendations</b> </li>
+	
+<table>
+  <tr>
+    <td>Before Login</td>
+     <td>After Login</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170947787-dca13934-a3b1-44d9-a27c-b1e552423e0b.jpg"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170948110-373c0213-11bc-4c0b-966b-a341fba42502.jpg"></td>
+  </tr>
+ </table>
+	
+  <li> <b>Customised Recommendations based on Item you are seeing:</b> </li>
+	<table>
+  <tr>
+    <td>Before Login</td>
+     <td>After Login</td>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170960351-eb606b8b-1dbb-4951-bb2a-9cd601b5c893.jpg"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170960396-316c1a4c-f56e-4663-ba52-c4b7e98fd02f.jpg"></td>
+  </tr>
+ </table>
+	
+  <li><b>We can Add items To cart by Clicking on AddToCart</b></li>
+	<div><img src="https://user-images.githubusercontent.com/65936280/170962233-d6e6992f-edf1-4238-92f1-0505d0ce4aa1.jpg" height="420" width="580" ></div>
+	
+
+ <li><b>Clicking Add to Cart </b> </li>
+	
+
+<table>
+  <tr>
+    <td>Without Login</td>
+     <td>With Login</td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170961402-4a548a85-10a1-40fe-b1fb-4ecd1fb37f8a.jpg"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170961389-c3b29eea-2d31-4f96-888f-b6902d8a1028.jpg"></td>
+  </tr>
+ </table>
+	
+  <li> <b>Customised Recommendations based on Item you are seeing:</b> </li>
+	<table>
+  <tr>
+    <td>Before Login</td>
+     <td>After Login</td>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170960351-eb606b8b-1dbb-4951-bb2a-9cd601b5c893.jpg"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170960396-316c1a4c-f56e-4663-ba52-c4b7e98fd02f.jpg"></td>
+  </tr>
+ </table>
+	
+	
+<table>
+  <tr>
+    <td><b>8.Tracking No of items in Cart :<b></td>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962382-80b72928-bf9a-47bd-9b15-9d044e8013c8.jpg" height="420" width="580"  ></td>
+  </tr>
+ </table>
+	
+<table>
+  <tr>
+    <td><b>9. Total_Amount Updation on Adding multiple items to the Cart </b></td>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962427-f9c9d803-1613-4d53-8bca-d8d33a9b4b45.jpg" ></td>
+  </tr>
+ </table>    
+	    
+	    
+	    
+	    
+<table>
+  <tr>
+    <td><b>10.Make Payment Option<b></td>
+    
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962472-da60e89b-c25e-4d97-9f09-1a37da1377cb.jpg"></td>
+   
+  </tr>
+ </table>
+
+	    <table>
+  <tr>
+
+    <td><b>11.After Payment,Cart will be emptied and Purchased Items will be added to Orders Page </b></td>
+  <tr>
+
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962508-a8ee4c44-0732-4dab-bb5a-21869ce20ea5.jpg" height="420" width="580" ></td>
+  </tr>
+ </table>
+
+
+	
+
+	
+	
+	
 	
 	
 	
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+	
 
-	
-	
+	  
+	  
+	  
+	  			
+		
+	  
+	  
+	  
 	
 
 <br><br>
