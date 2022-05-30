@@ -162,6 +162,15 @@ ProjectThemeExplaination with Pics
 	<br/><br/>
 	
   <li> <b>Customised Recommendations based on Item you are seeing:</b> </li>
+	<ol type="i">
+			<li>	Time needed for preparation</li>
+			<li> Name of Chef </li>
+			<li>	Ratings of the chef</li>
+			<li>	Veg or non veg</li>
+			<li>	 Locality: South Indian, North Indian, Chinese, Italian</li>
+			<li>	Price for the recorded video</li>
+			<li>	Item type: Breakfast, dinner, refreshment etc</li>
+		</ol>
 	<table>
   <tr>
     <td>Before Login</td>
@@ -232,7 +241,7 @@ ProjectThemeExplaination with Pics
 	
 <table>
   <tr>
-    <td><b>11.After User made Payment, Cart will get emptied and Purchased Items will be added to Orders Page <b></td>
+    <td><b>11.After User made Payment,Purchased Items will be added to Orders Page and Cart will get emptied   <b></td>
 	    </tr> 
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962508-a8ee4c44-0732-4dab-bb5a-21869ce20ea5.jpg" ></td>
@@ -240,6 +249,7 @@ ProjectThemeExplaination with Pics
   </tr>
  </table>
 	<br/><br/>
+	
 	
 <table>
   <tr>
