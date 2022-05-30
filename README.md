@@ -147,6 +147,7 @@ ProjectThemeExplaination with Pics
 	<br/><br/>
 	
   <li><b> HomePage Recommendations based on Profile Details</b> </li>
+	<br/>
 	
 	
 <table>
@@ -186,6 +187,7 @@ ProjectThemeExplaination with Pics
 	<br/><br/>
 	
  <li><b>Clicking Add to Cart </b> </li>
+	br/>
 
 	
 <table>
@@ -201,6 +203,7 @@ ProjectThemeExplaination with Pics
 	<br/><br/>
 	
   <li> <b>User can Add Multiple Items to the Cart</b> </li>
+	br/>
 	<table>
   <tr>
     <td>Before Login</td>
