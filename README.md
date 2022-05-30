@@ -113,10 +113,13 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 <ol type="1">
 	<li><b>Navigation Bar Updation according to Login Status </b></li>
 		<div> <img src="https://user-images.githubusercontent.com/65936280/170947615-96d2ca8b-a623-45d0-9315-aa9204d23c96.jpg" height="420" width="580"></div>
+	
   <li> <b>Register,Login,Profile Filling Option</b> </li>
 	<div><img src="https://user-images.githubusercontent.com/65936280/170948340-16e4e929-b29d-4cd5-a870-96dcdb884cbd.jpg" height="420" width="580"></div>
 	
+	<br/><br/>
   <li><b> HomePage Recommendations</b> </li>
+	
 	
 <table>
   <tr>
@@ -128,7 +131,7 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170948110-373c0213-11bc-4c0b-966b-a341fba42502.jpg"></td>
   </tr>
  </table>
-	
+	<br/><br/>
   <li> <b>Customised Recommendations based on Item you are seeing:</b> </li>
 	<table>
   <tr>
@@ -139,14 +142,15 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170960396-316c1a4c-f56e-4663-ba52-c4b7e98fd02f.jpg"></td>
   </tr>
  </table>
-	
+	<br/><br/>
   <li><b>We can Add items To cart by Clicking on AddToCart</b></li>
 	<div><img src="https://user-images.githubusercontent.com/65936280/170962233-d6e6992f-edf1-4238-92f1-0505d0ce4aa1.jpg" height="420" width="580" ></div>
 	
-
- <li><b>Clicking Add to Cart </b> </li>
+	<br/><br/>
 	
+ <li><b>Clicking Add to Cart </b> </li>
 
+	
 <table>
   <tr>
     <td>Without Login</td>
@@ -158,6 +162,8 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
   </tr>
  </table>
 	
+	<br/><br/>
+	
   <li> <b>Customised Recommendations based on Item you are seeing:</b> </li>
 	<table>
   <tr>
@@ -169,6 +175,7 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
   </tr>
  </table>
 	
+	<br/><br/>
 	
 <table>
   <tr>
@@ -178,36 +185,51 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
   </tr>
  </table>
 	
+	    <br/><br/>
+	    
 <table>
   <tr>
     <td><b>9. Total_Amount Updation on Adding multiple items to the Cart </b></td>
   <tr>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962427-f9c9d803-1613-4d53-8bca-d8d33a9b4b45.jpg" ></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170967115-d7c967a0-4809-49bc-900b-5a00edb0443c.jpg" ></td>
   </tr>
  </table>    
-	    
-	    
-	    
+
+	    <br/><br/>
 	    
 <table>
   <tr>
     <td><b>10.Make Payment Option<b></td>
-    
+	    </tr> 
   <tr>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962472-da60e89b-c25e-4d97-9f09-1a37da1377cb.jpg"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962472-da60e89b-c25e-4d97-9f09-1a37da1377cb.jpg" height="420" width="580" ></td>
    
   </tr>
  </table>
-
-	    <table>
+	
+	<br/><br/>
+	
+<table>
   <tr>
-
-    <td><b>11.After Payment,Cart will be emptied and Purchased Items will be added to Orders Page </b></td>
+    <td><b>11.After Payment,Cart will be emptied and Purchased Items will be added to Orders Page <b></td>
+	    </tr> 
   <tr>
-
-    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962508-a8ee4c44-0732-4dab-bb5a-21869ce20ea5.jpg" height="420" width="580" ></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962508-a8ee4c44-0732-4dab-bb5a-21869ce20ea5.jpg" ></td>
+   
   </tr>
  </table>
+	<br/><br/>
+	
+<table>
+  <tr>
+    <td><b>12.Recommendation based on Order History <b></td>
+	    </tr> 
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170968001-a7073036-9b14-4c3b-93e2-fbc523d0d2c1.jpg" ></td>
+   
+  </tr>
+ </table>
+<br/><br/>
 
 
 	
