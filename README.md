@@ -163,6 +163,7 @@ ProjectThemeExplaination with Pics
 	<br/><br/>
 	
   <li> <b>Customised Recommendations based on :</b> </li>
+	<br/>
 	<ol type="i">
 			<li>	Time needed for preparation</li>
 			<li> Name of Chef </li>
@@ -183,17 +184,18 @@ ProjectThemeExplaination with Pics
  </table>
 	<br/><br/>
   <li><b>We can Add items To cart by Clicking on AddToCart</b></li>
+	<br/>
 	<div><img src="https://user-images.githubusercontent.com/65936280/170962233-d6e6992f-edf1-4238-92f1-0505d0ce4aa1.jpg" height="420" width="580" ></div>
 	<br/><br/>
 	
  <li><b>Clicking Add to Cart </b> </li>
-	br/>
+	<br/>
 
 	
 <table>
   <tr>
-    <td>Without Login</td>
-     <td>With Login</td>
+    <td>Without Login<br/></td>
+     <td>With Login<br/></td>
   </tr>
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170961402-4a548a85-10a1-40fe-b1fb-4ecd1fb37f8a.jpg"></td>
@@ -203,7 +205,7 @@ ProjectThemeExplaination with Pics
 	<br/><br/>
 	
   <li> <b>User can Add Multiple Items to the Cart</b> </li>
-	br/>
+	<br/>
 	<table>
   <tr>
     <td>Before Login</td>
@@ -225,6 +227,7 @@ ProjectThemeExplaination with Pics
 <table>
   <tr>
     <td><b>9. Total_Amount gets Updated on Adding multiple items to the Cart </b></td>
+	  <br/>
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170967115-d7c967a0-4809-49bc-900b-5a00edb0443c.jpg" ></td>
   </tr>
@@ -234,6 +237,7 @@ ProjectThemeExplaination with Pics
 <table>
   <tr>
     <td><b>10.Make Payment Option<b></td>
+	    <br/>
 	    </tr> 
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962472-da60e89b-c25e-4d97-9f09-1a37da1377cb.jpg" height="420" width="580" ></td>
@@ -245,6 +249,7 @@ ProjectThemeExplaination with Pics
 <table>
   <tr>
     <td><b>11.After User made Payment,Purchased Items will be added to Orders Page and Cart will get emptied   <b></td>
+	    <br/>
 	    </tr> 
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962508-a8ee4c44-0732-4dab-bb5a-21869ce20ea5.jpg" ></td>
@@ -257,6 +262,7 @@ ProjectThemeExplaination with Pics
 <table>
   <tr>
     <td><b>12.Dishes Recommendation based on Order History <b></td>
+	    <br/>
 	    </tr> 
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170968001-a7073036-9b14-4c3b-93e2-fbc523d0d2c1.jpg" ></td>
