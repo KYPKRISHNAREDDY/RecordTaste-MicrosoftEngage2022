@@ -56,6 +56,35 @@ How amazing it would be "If a person can share their food taste with another per
 RecordTaste web app will make this dream come true.
 It provides the interface to get programs(recordings) for cooking dishes. Many users/chefs will sell their recordings on our website, and the user will load that code into his machine and it will cook with the same taste as the one in the recorded dish. Meanwhile, we can do other chores and chill.
 
+## Built with
+<br><br>
+This Web App
+<ul>  <b> Bulit with</b>
+<ul>
+<li>Python</li>
+<li>Html</li>
+<li> Css</li> 
+<li> Javascript</li>
+<li> Bootstrap</li>
+<li> Django</li>
+<li> CSS</li>
+<li>Others</li>
+</ul>
+</ul>
+	
+## Models Used in this Project
+![ModelsUsed](https://user-images.githubusercontent.com/65936280/170871182-c15b9451-c629-4254-a5c8-5f477e03be9f.PNG)
+
+
+## ProjectThemeExplaination 
+
+ProjectThemeExplaination with Pics
+
+![RecordOnce](https://user-images.githubusercontent.com/65936280/170872871-f814c706-6784-4ca1-8369-dbfec56266d7.jpeg)
+![Machine Makes Forever](https://user-images.githubusercontent.com/65936280/170872875-a22fd50e-a38d-46b7-9f5b-d179be6c7be2.jpeg)
+![Chill and Eat ](https://user-images.githubusercontent.com/65936280/170872881-55699058-3167-4476-b444-f5094533d150.jpeg)
+
+
 
 ## Features of this WebApp
 
@@ -100,12 +129,11 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 		<li>The more details user put in while searching the more precise recommendations will be Recommendations will be based on the Item added to the cart </li>
 		<li>customized recommendations will be provided only after the user is logged in</li>
 	</ol>
+</ol>	
 	
 	
 	
-	
-## WebApp-Features-ExploarationWithPics
-	
+## Features Exploaration in WebApp
 	
 	
 	
@@ -113,12 +141,12 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 <ol type="1">
 	<li><b>Navigation Bar Updation according to Login Status </b></li>
 		<div> <img src="https://user-images.githubusercontent.com/65936280/170947615-96d2ca8b-a623-45d0-9315-aa9204d23c96.jpg" height="420" width="580"></div>
-	
-  <li> <b>Register,Login,Profile Filling Option</b> </li>
-	<div><img src="https://user-images.githubusercontent.com/65936280/170948340-16e4e929-b29d-4cd5-a870-96dcdb884cbd.jpg" height="420" width="580"></div>
-	
 	<br/><br/>
-  <li><b> HomePage Recommendations</b> </li>
+  <li> <b>Register,Login,Profile Filling Option</b> </li>
+	<div> <img src="https://user-images.githubusercontent.com/65936280/170948340-16e4e929-b29d-4cd5-a870-96dcdb884cbd.jpg" height="420" width="580"></div>
+	<br/><br/>
+	
+  <li><b> HomePage Recommendations based on Profile Details</b> </li>
 	
 	
 <table>
@@ -132,6 +160,7 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
   </tr>
  </table>
 	<br/><br/>
+	
   <li> <b>Customised Recommendations based on Item you are seeing:</b> </li>
 	<table>
   <tr>
@@ -145,7 +174,6 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 	<br/><br/>
   <li><b>We can Add items To cart by Clicking on AddToCart</b></li>
 	<div><img src="https://user-images.githubusercontent.com/65936280/170962233-d6e6992f-edf1-4238-92f1-0505d0ce4aa1.jpg" height="420" width="580" ></div>
-	
 	<br/><br/>
 	
  <li><b>Clicking Add to Cart </b> </li>
@@ -161,41 +189,35 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170961389-c3b29eea-2d31-4f96-888f-b6902d8a1028.jpg"></td>
   </tr>
  </table>
-	
 	<br/><br/>
 	
-  <li> <b>Customised Recommendations based on Item you are seeing:</b> </li>
+  <li> <b>User can Add Multiple Items to the Cart</b> </li>
 	<table>
   <tr>
     <td>Before Login</td>
-     <td>After Login</td>
   <tr>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170960351-eb606b8b-1dbb-4951-bb2a-9cd601b5c893.jpg"></td>
-    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170960396-316c1a4c-f56e-4663-ba52-c4b7e98fd02f.jpg"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170970965-3b7134ec-1360-4974-91ab-dbf2930753d4.jpg"></td>
   </tr>
  </table>
-	
 	<br/><br/>
 	
 <table>
   <tr>
-    <td><b>8.Tracking No of items in Cart :<b></td>
+    <td><b>8.Webapp Tracks No of items in Cart :<b></td>
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962382-80b72928-bf9a-47bd-9b15-9d044e8013c8.jpg" height="420" width="580"  ></td>
   </tr>
  </table>
-	
-	    <br/><br/>
+	<br/><br/>
 	    
 <table>
   <tr>
-    <td><b>9. Total_Amount Updation on Adding multiple items to the Cart </b></td>
+    <td><b>9. Total_Amount gets Updated on Adding multiple items to the Cart </b></td>
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170967115-d7c967a0-4809-49bc-900b-5a00edb0443c.jpg" ></td>
   </tr>
  </table>    
-
-	    <br/><br/>
+	 <br/><br/>
 	    
 <table>
   <tr>
@@ -206,12 +228,11 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
    
   </tr>
  </table>
-	
 	<br/><br/>
 	
 <table>
   <tr>
-    <td><b>11.After Payment,Cart will be emptied and Purchased Items will be added to Orders Page <b></td>
+    <td><b>11.After User made Payment, Cart will get emptied and Purchased Items will be added to Orders Page <b></td>
 	    </tr> 
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170962508-a8ee4c44-0732-4dab-bb5a-21869ce20ea5.jpg" ></td>
@@ -222,54 +243,18 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 	
 <table>
   <tr>
-    <td><b>12.Recommendation based on Order History <b></td>
+    <td><b>12.Dishes Recommendation based on Order History <b></td>
 	    </tr> 
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/65936280/170968001-a7073036-9b14-4c3b-93e2-fbc523d0d2c1.jpg" ></td>
    
   </tr>
  </table>
-<br/><br/>
-
-
-	
-
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		
-		
-		
-	
-
-	  
-	  
-	  
-	  			
-		
-	  
-	  
-	  
+<br/><br>
 	
 
 <br><br>
+	
 	
 <b>Potential of this Webapp if it is developed further :</b>
 <ul>
@@ -284,33 +269,6 @@ It provides the interface to get programs(recordings) for cooking dishes. Many u
 
 
 
-
-<br><br>
-This Web App
-<ul>  <b> Bulit with</b>
-<ul>
-<li>Python</li>
-<li>Html</li>
-<li> Css</li> 
-<li> Javascript</li>
-<li> Bootstrap</li>
-<li> Django</li>
-<li> CSS</li>
-<li>Others</li>
-</ul>
-</ul>
-	
-## Models Used in this Project
-![ModelsUsed](https://user-images.githubusercontent.com/65936280/170871182-c15b9451-c629-4254-a5c8-5f477e03be9f.PNG)
-
-
-##ProjectThemeExplaination 
-
-ProjectThemeExplaination with Pics
-
-![RecordOnce](https://user-images.githubusercontent.com/65936280/170872871-f814c706-6784-4ca1-8369-dbfec56266d7.jpeg)
-![Machine Makes Forever](https://user-images.githubusercontent.com/65936280/170872875-a22fd50e-a38d-46b7-9f5b-d179be6c7be2.jpeg)
-![Chill and Eat ](https://user-images.githubusercontent.com/65936280/170872881-55699058-3167-4476-b444-f5094533d150.jpeg)
 
 
 
