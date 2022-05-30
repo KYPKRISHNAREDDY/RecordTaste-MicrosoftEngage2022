@@ -28,22 +28,22 @@
 ## About
 -Theme of Project
 
-RecordTaste is a web app inspired by automation. It is a full-fledged recommendation E-commerce website containing features like choosing the product, Add to cart, with recommendations based on profile, dish selected, dish ordered, and order history.
+RecordTaste is a web app inspired by automation. It is a full-fledged recommendation E-commerce website containing features like choosing the product, Add to cart, with recommendations based on profile, dish selected, dish ordered, and order history. <br>
 This web app has been developed by Krishna Reddy for the Microsoft engage program 2022 (May 4 - May 29)
 
 
 ## Idea
-The idea behind the project: As we are in the era of automation, everything is getting automated, from Face recognition to self-driving cars
+The idea behind the project: As we are in the era of automation, everything is getting automated, from Face recognition to self-driving cars <br>
 Imagine how cool it would be “If cooking also gets automated,” Even though there is no product as such in the current market.
-Research is going on in this field, and a high chance of being available shortly. 
-Few examples: Molly from Moley robotics, Samsung bot chef
-Let's assume that a machine (which is hypothetical) will have options: fill ingredients, record, cook,
+Research is going on in this field, and a high chance of being available shortly.  <br>
+Few examples: Molly from Moley robotics, Samsung bot chef  <br>
+Let's assume that a machine (which is hypothetical) will have options: fill ingredients, record, cook,  <br> <br>
 Fill ingredients: There will be containers for each ingredient required for the dish, which has to be filled manually
 
 Record: 
 1.	Press the record option and prepare the dish.
-2.	The machine will observe minute details when you are cooking.
- For example, how many grams of salt is added, the time gap between adding salt and vegetables, the centigrade flame maintained, and many more.
+2.	The machine will observe minute details when you are cooking.  <br>
+ For example, how many grams of salt is added, the time gap between adding salt and vegetables, the centigrade flame maintained, and many more.  <br>
 
 Cook: By the inbuilt program of the machine, it starts preparing the dish by taking details from the recording
 Next time onwards, there is no need to cook. We just have to load ingredients, provide a recording of the dish, and press the cook option.
@@ -53,7 +53,7 @@ It will cook on its own.
 ## Role Of This WebApp
 
 How amazing it would be "If a person can share their food taste with another person who is in another corner of the world." 
-RecordTaste web app will make this dream come true.
+ <br> RecordTaste web app will make this dream come true. <br>
 It provides the interface to get programs(recordings) for cooking dishes. Many users/chefs will sell their recordings on our website, and the user will load that code into his machine and it will cook with the same taste as the one in the recorded dish. Meanwhile, we can do other chores and chill.
 
 ## Built with
@@ -118,7 +118,7 @@ ProjectThemeExplaination with Pics
 	 <ol type="a">
 		 <li>Selected food item can be added to cart where details of the order will be visible</li>
 	</ol>
-  <li><b>Add to Cart :</b></li>
+  <li><b>Recommendations :</b></li>
 	<ol type="a">
 		<li>Details during registration is used as primary data to recommend </li>
 		<li>Categories used by the user while searching for the food will be used</li>
