@@ -33,11 +33,11 @@ This web app has been developed by Krishna Reddy for the Microsoft engage progra
 
 
 ## Idea
-The idea behind the project: As we are in the era of automation, everything is getting automated, from Face recognition to self-driving cars <br>
+The idea behind the project: As we are in the era of automation, everything is getting automated, from Face recognition to self-driving cars. <br>
 Imagine how cool it would be “If cooking also gets automated,” Even though there is no product as such in the current market.
 Research is going on in this field, and a high chance of being available shortly.  <br>
 Few examples: Molly from Moley robotics, Samsung bot chef  <br>
-Let's assume that a machine (which is hypothetical) will have options: fill ingredients, record, cook,  <br> <br>
+Let's assume that a machine (which is hypothetical) will have options: fill ingredients, record, cook.  <br> <br>
 Fill ingredients: There will be containers for each ingredient required for the dish, which has to be filled manually
 
 Record: 
