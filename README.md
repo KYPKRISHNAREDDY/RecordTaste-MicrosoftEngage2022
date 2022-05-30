@@ -161,7 +161,7 @@ ProjectThemeExplaination with Pics
  </table>
 	<br/><br/>
 	
-  <li> <b>Customised Recommendations based on Item you are seeing:</b> </li>
+  <li> <b>Customised Recommendations based on :</b> </li>
 	<ol type="i">
 			<li>	Time needed for preparation</li>
 			<li> Name of Chef </li>
