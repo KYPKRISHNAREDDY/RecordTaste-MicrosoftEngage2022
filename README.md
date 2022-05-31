@@ -33,7 +33,7 @@
 ## About
 -Theme of Project
 
-RecordTaste is a web app inspired by automation. It is a full-fledged recommendation E-commerce website containing features like choosing the product, Add to cart, with recommendations based on profile, dish selected, dish ordered, and order history. <br>
+RecordTaste is a web app which  is a full-fledged recommendation E-commerce website containing features like choosing the product, Add to cart, with recommendations based on profile, dish selected, dish ordered, and order history. <br>
 This web app has been developed by Krishna Reddy for the Microsoft engage program 2022 (May 4 - May 29)
 
 
