@@ -7,8 +7,8 @@
 
 <br>
  RecordTaste
-
   <br>
+  
 </h1>
 <h4 align="center">Record Once. Machine Makes Forever . Just Eat And Chill.</h4>
 <p align="center">
@@ -16,8 +16,13 @@
   <a href="#idea">Idea behind Project </a> •
  <a href="#role">Role of the WebApp </a> •
  <a href="#Potential">Features and potential of the WebApp</a> •
-  <a href="#ProjectThemeExplaination ">Features</a> •
+  <a href="#ProjectThemeExplaination">Features</a> •
   <a href="#agile">Agile</a>
+</p>
+
+<p align="center">
+	<b>Live Website : </b> <a href="https://recordtaste37.herokuapp.com/"> RecordTaste</a>
+  
 </p>
 
 <p align="center">
@@ -45,7 +50,8 @@ Record:
 2.	The machine will observe minute details when you are cooking.  <br>
  For example, how many grams of salt is added, the time gap between adding salt and vegetables, the centigrade flame maintained, and many more.  <br>
 
-Cook: By the inbuilt program of the machine, it starts preparing the dish by taking details from the recording
+Cook: </br> 		
+		By the inbuilt program of the machine, it starts preparing the dish by taking details from the recording
 Next time onwards, there is no need to cook. We just have to load ingredients, provide a recording of the dish, and press the cook option.
 It will cook on its own.
 
@@ -72,6 +78,8 @@ This Web App
 </ul>
 </ul>
 	
+
+ 
 ## Models Used in this Project
 ![ModelsUsed](https://user-images.githubusercontent.com/65936280/170871182-c15b9451-c629-4254-a5c8-5f477e03be9f.PNG)
 
@@ -133,6 +141,19 @@ ProjectThemeExplaination with Pics
 	
 	
 	
+## Live WebApp
+
+<p align="center">
+<b>CheckOut Live Implementation of this Project here:</b>
+</p>
+
+<p align="center">
+	<a href="https://recordtaste37.herokuapp.com/"><b>RecordTaste</b></a>
+</p>
+	
+</br>
+</br>
+
 ## Features Exploaration in WebApp
 	
 	
