@@ -20,10 +20,7 @@
   <a href="#agile">Agile</a>
 </p>
 
-<p align="center">
-	<b>Live Website : </b> <a href="https://recordtaste37.herokuapp.com/"> RecordTaste</a>
-  
-</p>
+
 
 <p align="center">
 	Developed by : <i> KYP Krishna Reddy</i>
@@ -141,16 +138,10 @@ ProjectThemeExplaination with Pics
 	
 	
 	
-## Live WebApp
-
-<p align="center">
-<b>CheckOut Live Implementation of this Project here:</b>
-</p>
-
-<p align="center">
-	<a href="https://recordtaste37.herokuapp.com/"><b>RecordTaste</b></a>
-</p>
 	
+
+
+
 </br>
 </br>
 
