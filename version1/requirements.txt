@@ -1,0 +1,19 @@
+# Django Framework
+Django==4.0.4
+asgiref==3.5.2
+sqlparse==0.4.2
+tzdata==2022.1
+
+# Image Processing
+Pillow==9.1.1
+
+# ML and Data Science Libraries
+scikit-learn==1.0.2
+pandas==1.4.2
+numpy==1.22.3
+
+# Additional utilities
+python-decouple==3.6
+
+# Production server (optional)
+gunicorn==20.1.0
