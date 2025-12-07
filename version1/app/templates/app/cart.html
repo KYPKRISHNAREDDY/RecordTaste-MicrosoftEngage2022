@@ -50,6 +50,27 @@
                 </div>
             </div>
         </div>
+
+        <!-- You May Also Like Section -->
+        {% if you_may_also_like %}
+        <div class="mt-5">
+            <h4 class="mb-3">You May Also Like</h4>
+            <div class="row">
+                {% for product in you_may_also_like %}
+                    <div class="col-md-2 col-sm-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <h6 class="card-title small">{{ product.product_name }}</h6>
+                                <p class="text-muted small">₹{{ product.discounted_price }}</p>
+                                <span class="badge bg-warning text-dark small">⭐ {{ product.ratings }}</span>
+                                <a href="{% url 'product-detail' product.id %}" class="btn btn-sm btn-primary mt-2">View</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
     {% endif %}
 </div>
 {% endblock %}

@@ -46,18 +46,40 @@
         </div>
     </div>
 
+    <!-- Chef's Other Products -->
+    {% if chef_products %}
+        <hr class="my-5">
+        <h3 class="mb-4">More from Chef {{ product.chef_name }}</h3>
+        <div class="row">
+            {% for item in chef_products %}
+                <div class="col-md-2 mb-3">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h6 class="card-title small">{{ item.product_name }}</h6>
+                            <p class="small text-muted">₹{{ item.discounted_price }}</p>
+                            <span class="badge bg-warning text-dark small">⭐ {{ item.ratings }}</span>
+                            <a href="{% url 'product-detail' item.id %}" class="btn btn-sm btn-outline-primary mt-2">View</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
     <!-- Similar Items Section -->
     {% if similar_items %}
         <hr class="my-5">
         <h3 class="mb-4"><span class="badge bg-primary">AI</span> Similar Items You May Like</h3>
+        <p class="text-muted">Based on content-based filtering algorithm</p>
         <div class="row">
             {% for item in similar_items %}
                 <div class="col-md-2 mb-3">
                     <div class="card h-100">
                         <div class="card-body text-center">
-                            <h6 class="card-title">{{ item.product_name }}</h6>
-                            <p class="small">₹{{ item.discounted_price }}</p>
-                            <a href="{% url 'product-detail' item.id %}" class="btn btn-sm btn-outline-primary">View</a>
+                            <h6 class="card-title small">{{ item.product_name }}</h6>
+                            <p class="small text-muted">₹{{ item.discounted_price }}</p>
+                            <span class="badge bg-warning text-dark small">⭐ {{ item.ratings }}</span>
+                            <a href="{% url 'product-detail' item.id %}" class="btn btn-sm btn-outline-primary mt-2">View</a>
                         </div>
                     </div>
                 </div>
