@@ -85,7 +85,7 @@ class Product(models.Model):
     meal_type = models.CharField(choices=MEAL_TYPE_CHOICES, max_length=25)
     category = models.CharField(choices=CATEGORY_CHOICES, max_length=25)
     cuisine = models.CharField(choices=CUISINE_CHOICES, max_length=50)
-    product_image = models.ImageField(upload_to='productimg')
+    product_image = models.ImageField(upload_to='productimg', blank=True, null=True)
     popularity_score = models.FloatField(default=0.0, help_text="Calculated based on orders and views")
     created_at = models.DateTimeField(auto_now_add=True)
 
@@ -125,7 +125,7 @@ class ChefProduct(models.Model):
     )
     category = models.CharField(choices=CATEGORY_CHOICES, max_length=20)
     meal_type = models.CharField(choices=MEAL_TYPE_CHOICES, max_length=19)
-    product_image = models.ImageField(upload_to='chefproductimg')
+    product_image = models.ImageField(upload_to='chefproductimg', blank=True, null=True)
     total_orders = models.IntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
 

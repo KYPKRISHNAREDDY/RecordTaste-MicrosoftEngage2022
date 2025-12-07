@@ -4,16 +4,12 @@ asgiref==3.5.2
 sqlparse==0.4.2
 tzdata==2022.1
 
-# Image Processing
-Pillow==9.1.1
+# Image Processing (updated for compatibility)
+Pillow>=9.5.0
 
-# ML and Data Science Libraries
-scikit-learn==1.0.2
-pandas==1.4.2
-numpy==1.22.3
-
-# Additional utilities
-python-decouple==3.6
-
-# Production server (optional)
-gunicorn==20.1.0
+# Note: We implemented ML algorithms from scratch!
+# No heavy ML libraries (sklearn, pandas, numpy) needed
+# This makes the project:
+# - Easier to understand and explain in interviews
+# - Simpler to deploy
+# - Shows deeper understanding of algorithms

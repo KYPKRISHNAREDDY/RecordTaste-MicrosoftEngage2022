@@ -1,0 +1,51 @@
+{% extends 'app/base.html' %}
+
+{% block title %}My Profile{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="card shadow">
+                <div class="card-body p-4">
+                    <h2 class="mb-4">My Profile</h2>
+
+                    {% if customer %}
+                        <div class="mb-3">
+                            <strong>Name:</strong> {{ customer.name }}
+                        </div>
+                        <div class="mb-3">
+                            <strong>Username:</strong> {{ user.username }}
+                        </div>
+                        <div class="mb-3">
+                            <strong>Email:</strong> {{ user.email }}
+                        </div>
+                        <div class="mb-3">
+                            <strong>Food Preference:</strong>
+                            <span class="badge bg-success">{{ customer.category_preference }}</span>
+                        </div>
+                        <div class="mb-3">
+                            <strong>Favorite Cuisine:</strong>
+                            <span class="badge bg-info">{{ customer.cuisine_preference }}</span>
+                        </div>
+                        {% if customer.mobile %}
+                        <div class="mb-3">
+                            <strong>Mobile:</strong> {{ customer.mobile }}
+                        </div>
+                        {% endif %}
+
+                        <hr>
+                        <a href="{% url 'profile-edit' %}" class="btn btn-primary">Edit Profile</a>
+                    {% else %}
+                        <div class="alert alert-warning">
+                            <h4>Profile Incomplete</h4>
+                            <p>Please complete your profile to get better ML-based recommendations!</p>
+                            <a href="{% url 'profile-edit' %}" class="btn btn-primary">Complete Profile</a>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,32 @@
+{% extends 'app/base.html' %}
+
+{% block title %}{{ product.title }} - Chef Variants{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <h2 class="mb-4">{{ product.title }}</h2>
+    <p class="lead text-muted">Choose from different chef variants</p>
+
+    <div class="row">
+        {% for variant in chef_variants %}
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ variant.chef_name }}'s {{ product.title }}</h5>
+                        <p class="card-text">{{ variant.description|truncatewords:20 }}</p>
+                        <p><strong class="text-primary">₹{{ variant.discounted_price }}</strong></p>
+                        <div class="mb-2">
+                            <span class="badge bg-warning text-dark">⭐ {{ variant.ratings }}/5</span>
+                        </div>
+                        <a href="{% url 'product-detail' variant.id %}" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        {% empty %}
+            <div class="col-12">
+                <div class="alert alert-info">No variants available</div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

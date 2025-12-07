@@ -1,0 +1,33 @@
+{% extends 'app/base.html' %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <h2 class="mb-4">
+        Search Results for "{{ query }}"
+        <small class="text-muted">({{ result_count }} found)</small>
+    </h2>
+
+    <div class="row">
+        {% for product in results %}
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.product_name }}</h5>
+                        <p class="card-text text-muted small">by Chef {{ product.chef_name }}</p>
+                        <p><strong>₹{{ product.discounted_price }}</strong></p>
+                        <a href="{% url 'product-detail' product.id %}" class="btn btn-sm btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+        {% empty %}
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    No results found for "{{ query }}"
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
